@@ -1,0 +1,100 @@
+folder,dialogueID,date,from,to,utterance,label,kiara,jack,shriya
+99,92.tsv,2005-01-06T17:57:00.000Z,techn9ne,,do i have to manually delte the files it created?,yes-no-question,qy,qy,Qy
+99,92.tsv,2005-01-06T17:58:00.000Z,techn9ne,,yea that didnt work...,reject,ng,h,h
+99,92.tsv,2005-01-06T17:59:00.000Z,housetier,techn9ne,when you installed the deb were there any error messages?,yes-no-question,qy,qy,qy
+99,92.tsv,2005-01-06T17:59:00.000Z,techn9ne,,yes it was complaining i didnt have lpd,"yes answers, statement-non-opinion","aa, sd",sd,bk
+99,92.tsv,2005-01-06T06:00:00.000Z,techn9ne,,/var/lib/dpkg/info/mfc4800lpr.postrm: line 3: /etc/init.d/lpd: No such file or directory,other,oo,sd,Oo
+99,92.tsv,2005-01-06T06:00:00.000Z,techn9ne,,dpkg: warning - old post-removal script returned error exit status 127,other,oo,sd,Oo
+99,92.tsv,2005-01-06T06:00:00.000Z,techn9ne,,dpkg - trying script from the new package instead ...,other,oo,sd,Oo
+99,92.tsv,2005-01-06T06:00:00.000Z,techn9ne,,/var/lib/dpkg/tmp.ci/postrm: line 3: /etc/init.d/lpd: No such file or directory,other,oo,sd,Oo
+99,92.tsv,2005-01-06T06:00:00.000Z,techn9ne,,dpkg: error processing mfc4800lpr-1.1.2-1.i386.deb (--install):,other,oo,sd,Oo
+99,92.tsv,2005-01-06T06:00:00.000Z,techn9ne,,subprocess new post-removal script returned error exit status 127,other,oo,sd,Oo
+99,92.tsv,2005-01-06T06:00:00.000Z,techn9ne,,/var/lib/dpkg/tmp.ci/postrm: line 3: /etc/init.d/lpd: No such file or directory,other,oo,sd,Oo
+99,92.tsv,2005-01-06T06:00:00.000Z,techn9ne,,dpkg: error while cleaning up:,other,oo,sd,Oo
+99,92.tsv,2005-01-06T06:00:00.000Z,techn9ne,,subprocess post-removal script returned error exit status 127,other,oo,sd,Oo
+99,92.tsv,2005-01-06T06:00:00.000Z,housetier,techn9ne,and when you installed it?,"open-question, WH-Question","qo, qw",qo,Qo
+99,92.tsv,2005-01-06T06:00:00.000Z,techn9ne,,thats what it said...,statement-non-opinion,sd,h,Sd
+99,92.tsv,2005-01-06T06:00:00.000Z,housetier,,did you get error messages then too?,yes-no-question,qy,qy,Qo
+99,92.tsv,2005-01-06T06:01:00.000Z,techn9ne,,yes i just pasted it,"yes answers, statement-non-opinion","aa, sd",ny,Ny
+99,92.tsv,2005-01-06T06:01:00.000Z,housetier,,postrm hints at removal attempt though,statement-non-opinion,sd,sv,Sv
+99,92.tsv,2005-01-06T06:02:00.000Z,techn9ne,,can i open up the .deb file in archiver view the config files find out what it installed remove manually and force to rebuild deb db?,yes-no-question,qy,qy,Qy
+99,92.tsv,2005-01-06T06:03:00.000Z,housetier,techn9ne,what you can do is edit that postrm script so it will exit successfully,action-directive,ad,sd,Sd
+99,92.tsv,2005-01-06T06:04:00.000Z,housetier,,leave the !#/bin/whatever stuff on the first line and insert 'exit 0' on the second line,action-directive,ad,sd,Sd
+99,92.tsv,2005-01-06T06:04:00.000Z,techn9ne,,it wants lpd is that a alternative to cups?,yes-no-question,qy,qy,Qy
+99,92.tsv,2005-01-06T06:04:00.000Z,housetier,,you will have to remove the files by hand then,action-directive,ad,sd,Sd
+99,92.tsv,2005-01-06T06:04:00.000Z,techn9ne,,thats sure a pain,response acknowledgement,bk,b,O
+99,92.tsv,2005-01-06T06:05:00.000Z,housetier,,not really,reject,ng,nn,Nn
+99,92.tsv,2005-01-06T06:05:00.000Z,housetier,,you can find out which files belong to the .deb and remove them,"statement-non-opinion, action-directive","sd, ad",sd,Sb
+99,92.tsv,2005-01-06T06:05:00.000Z,techn9ne,,what format is .deb in tar gz?,"open-question, WH-Question","qo, qw",qo,Qo
+99,92.tsv,2005-01-06T06:06:00.000Z,housetier,,its .ar,statement-non-opinion,sd,sd,Sd
+99,92.tsv,2005-01-06T06:06:00.000Z,techn9ne,,do i have to get osmething to open it?,yes-no-question,qy,qo,Qo
+99,92.tsv,2005-01-06T06:06:00.000Z,housetier,,"if you have midnight commander installed, you can browse it","statement-non-opinion, action-directive","sd, ad",sd,Sd
+99,92.tsv,2005-01-06T06:06:00.000Z,techn9ne,,whats midnight commander?,wh-question,qw,qw,Qw
+99,92.tsv,2005-01-06T06:07:00.000Z,housetier,,a very good console based file manager,statement-non-opinion,sd,sv,Sd
+99,92.tsv,2005-01-06T06:07:00.000Z,housetier,,looks like the old norton commander for dos,statement-non-opinion,sd,sv,Sd
+99,92.tsv,2005-01-06T06:07:00.000Z,techn9ne,,where can i get it?,"wh-question, open-question","qw, qo",qw,Qw
+99,92.tsv,2005-01-06T06:08:00.000Z,housetier,,"first you edit the script, so apt-get et al can work again",action-directive,ad,ad,Sd
+99,92.tsv,2005-01-06T06:08:00.000Z,techn9ne,,... i cant open the deb,negative non-no answers,na,sd,Sd
+99,92.tsv,2005-01-06T06:08:00.000Z,housetier,,then you install it so you can remove those files,action-directive,ad,ad,Ad
+99,92.tsv,2005-01-06T06:08:00.000Z,housetier,techn9ne,/var/lib/dpkg/info/mfc4800lpr.postrm,other,oo,sd,Sd
+99,92.tsv,2005-01-06T06:11:00.000Z,housetier,,have /usr/bin/firefox as login shell or so?,yes-no-question,qy,qo,Qy
+99,92.tsv,2005-01-06T06:11:00.000Z,techn9ne,,k i edied the file... ran /var/lib/dpkg/info/mfc4800lpr.postrm,statement-non-opinion,sd,sd,Bk
+99,92.tsv,2005-01-06T06:11:00.000Z,techn9ne,,i tried uninstalling again didnt work,negative non-no answers,na,sd,Sd
+99,92.tsv,2005-01-06T06:12:00.000Z,housetier,techn9ne,ok whats the error message?,"open-question, WH-Question","qo, qw",qo,Qo
+99,92.tsv,2005-01-06T06:12:00.000Z,techn9ne,,same,repeat-phrase,b^r,no,No
+99,92.tsv,2005-01-06T06:12:00.000Z,techn9ne,,inconsistent state,statement-non-opinion,sd,sd,Sd
+99,92.tsv,2005-01-06T06:12:00.000Z,techn9ne,,reinstall,statement-non-opinion,sd,ad,No
+99,92.tsv,2005-01-06T06:12:00.000Z,housetier,techn9ne,btw I hope this will teach you to blindly install .deb packages from 'untrusted' sources ;),statement-opinion,sv,sv,Sd
+99,92.tsv,2005-01-06T06:13:00.000Z,techn9ne,,well it came from brother.com,statement-non-opinion,sd,sd,Sd
+99,92.tsv,2005-01-06T06:13:00.000Z,techn9ne,,http://solutions.brother.com/Library/sol/printer/linux/lpr_drivers.html,other,oo,sd,Oo
+99,92.tsv,2005-01-06T06:13:00.000Z,housetier,techn9ne,well have you tried to reinstall it as suggested?,"wh-question, yes-no-question","qw, qy",qy,Qy
+99,92.tsv,2005-01-06T06:13:00.000Z,techn9ne,,yes,yes answers,aa,ny,Ny
+99,92.tsv,2005-01-06T06:14:00.000Z,techn9ne,,its just complainintg because i dont have lpd,statement-non-opinion,sd,sd,Sd
+99,92.tsv,2005-01-06T06:14:00.000Z,techn9ne,,does ubuntu have lpd?,"yes-no-question, open-question","qy, qo",qy,Qy
+99,92.tsv,2005-01-06T06:15:00.000Z,housetier,,it should depend on lpd which it doesn't,reject,ng,sv,Sd
+99,92.tsv,2005-01-06T06:15:00.000Z,housetier,,it doesn't depend on anything,negative non-no answers,na,sd,Sd
+99,92.tsv,2005-01-06T06:18:00.000Z,housetier,techn9ne,if you are willing we could try to fix the package database by hand,"yes-no-question, open-question, offers","qy, qo, of",ad,Sd
+99,92.tsv,2005-01-06T06:18:00.000Z,techn9ne,,sure,"yes answers, agree/accept",aa,na,Ny
+99,92.tsv,2005-01-06T06:18:00.000Z,housetier,,but we might not be successful as I haven't done it before,"downplayer, hedge","bd, bh",sv,Sd
+99,92.tsv,2005-01-06T06:18:00.000Z,techn9ne,,if we break it we break it i have no option left after this but a clean install of ubuntu,statement-non-opinion,sd,sd,Sd
+99,92.tsv,2005-01-06T06:18:00.000Z,housetier,,nah we won't break it,reject,ng,sv,Ng
+99,92.tsv,2005-01-06T06:19:00.000Z,housetier,,we will make backups :D,"action-directive, statement-non-opinion","ad, sd",sd,Sd
+99,92.tsv,2005-01-06T06:19:00.000Z,techn9ne,,ok,response acknowledgement,bk,bk,bk
+99,92.tsv,2005-01-06T06:19:00.000Z,housetier,,you downloaded this deb here: http://solutions.brother.com/Library/sol/printer/linux/rpmfiles/lpr_debian/mfc4800lpr-1.1.2-1.i386.deb ?,yes-no-question,qy,qy,Sd
+99,92.tsv,2005-01-06T06:19:00.000Z,techn9ne,,yes,yes answers,aa,ny,Ny
+99,92.tsv,2005-01-06T06:20:00.000Z,housetier,,ok lets start with the easy part: removing the files,action-directive,ad,ad,ad
+99,92.tsv,2005-01-06T06:21:00.000Z,housetier,,"/usr/bin/brprintconf, /usr/lib/libbrcomplpr.so, /usr/local/Brother/*",other,oo,ad,Oo
+99,92.tsv,2005-01-06T06:22:00.000Z,techn9ne,,k done,response acknowledgement,bk,bk,Bk
+99,92.tsv,2005-01-06T06:23:00.000Z,housetier,techn9ne,"ok next one is easy too then it will become more delicat quickly, 'cd /var/lib/dpkg'",action-directive,ad,ad,Ad
+99,92.tsv,2005-01-06T06:24:00.000Z,techn9ne,,k,response acknowledgement,bk,bk,Bk
+99,92.tsv,2005-01-06T06:25:00.000Z,housetier,,"there are four files which we might need to touch so we will make backups now: available, available-old, status, status-old",statement-non-opinion,sd,ad,Sd
+99,92.tsv,2005-01-06T06:25:00.000Z,housetier,,just cp them to your home dir or so,action-directive,ad,ad,sd
+99,92.tsv,2005-01-06T06:26:00.000Z,techn9ne,,k,response acknowledgement,bk,bk,Bk
+99,92.tsv,2005-01-06T06:27:00.000Z,housetier,,well here comes the experiment...,other,oo,h,Sd
+99,92.tsv,2005-01-06T06:27:00.000Z,housetier,,"available is a very large file, open it in your favorite text editor","statement-non-opinion, action-directive","sd, ad",ad,Ad
+99,92.tsv,2005-01-06T06:28:00.000Z,housetier,,then search for mfc4800lpr,action-directive,ad,ad,Ad
+99,92.tsv,2005-01-06T06:28:00.000Z,techn9ne,,open which file?,"open-question, WH-Question","qo, qw",br,Bh
+99,92.tsv,2005-01-06T06:29:00.000Z,housetier,,available',summarize/reformulate,b^m,sd,^q
+99,92.tsv,2005-01-06T06:30:00.000Z,techn9ne,,k i delete that block of text?,"response acknowledgement, yes-no-question","bk, qy",qy,Qy
+99,92.tsv,2005-01-06T06:30:00.000Z,housetier,,"only the mfc4800 part, yes :)","affirmative non-yes answer, yes answer",aa,ny,Ad
+99,92.tsv,2005-01-06T06:31:00.000Z,techn9ne,,k done,response acknowledgment,bk,bk,Ny
+99,92.tsv,2005-01-06T06:31:00.000Z,housetier,,"save and repeat for 'available-old', 'status', and 'status-old'",action-directive,ad,ad,Ad
+99,92.tsv,2005-01-06T06:33:00.000Z,techn9ne,,k,response acknowledgment,bk,bk,Ny
+99,92.tsv,2005-01-06T06:33:00.000Z,housetier,,no check the status with 'dpkg -l mfc4800lpr',action-directive,ad,ad,Ad
+99,92.tsv,2005-01-06T06:34:00.000Z,techn9ne,,no packages found. cool thanks.,"other, thanking","oo, ft",ft,Ft
+99,92.tsv,2005-01-06T06:34:00.000Z,housetier,,ok yet another check: 'dpkg --audit',action-directive,ad,ad,Sd
+99,92.tsv,2005-01-06T06:35:00.000Z,housetier,,moin,other,oo,%,Oo
+99,92.tsv,2005-01-06T06:36:00.000Z,techn9ne,,returned nothing,other answers,oo,sd,Sd
+99,92.tsv,2005-01-06T06:36:00.000Z,housetier,techn9ne,it seems the package database is fixed now :),statement-opinion,sv,sd,Sd
+99,92.tsv,2005-01-06T06:36:00.000Z,techn9ne,housetier,: thanks you rock,"thanking, appreciative",ft,ft,Ft
+99,92.tsv,2005-01-06T06:36:00.000Z,techn9ne,,nowq i just gotta figure out how to get the printer working w/o those drivers,statement-non-opinion,sd,sd,T1
+99,92.tsv,2005-01-06T06:37:00.000Z,housetier,,my dpkg-fu is strong,statement-opinion,sv,sv,Sd
+99,92.tsv,2005-01-06T06:37:00.000Z,housetier,,;),other,oo,o,Oo
+99,92.tsv,2005-01-06T06:38:00.000Z,techn9ne,,thats pretty easy compared to fixing windowws registry problems,statement-opinion,sv,sv,Sd
+99,92.tsv,2005-01-06T06:38:00.000Z,techn9ne,,you can never giure out what the installer did,statement-opinion,sv,sv,Sd
+99,92.tsv,2005-01-06T06:40:00.000Z,techn9ne,,free?,open-question,qo,br,Qy
+99,92.tsv,2005-01-06T06:41:00.000Z,techn9ne,,not w/ the MPAA and RIAA shutting down bit torrent,"reject, negative non-no answers","ng, na",sd,Sd
+99,92.tsv,2005-01-06T06:42:00.000Z,techn9ne,,i think they want to shut down the technology,statement-opinion,sv,sd,Sv
+99,92.tsv,2005-01-06T06:44:00.000Z,housetier,,xlib-dev?,yes-no-question,qy,br,Qo
+99,92.tsv,2005-01-06T06:46:00.000Z,housetier,techn9ne,you could try and see if CUPS has support for your printer,action-directive,ad,ad,Ad
+99,92.tsv,2005-01-06T06:48:00.000Z,techn9ne,housetier,: i got it using a similar modeled printer,statement-non-opinion,sd,sd,Sv

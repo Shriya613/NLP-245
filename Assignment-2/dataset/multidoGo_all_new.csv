@@ -1,0 +1,89 @@
+conversationId,turnNumber,utteranceId,utterance,authorRole,Label,kiara,jack,shriya
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,0,acs-257b8aa9-7ef3-4c78-af09-b031de7032a6,hello good morning have a nice day,customer,conventional opening,fp,fp,Sd
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,1,acs-2f1093f6-9e8e-484f-817b-99c1f657428f,Hello! Welcome to ACS Software Solutions. How may I help you today?,agent,"conventional opening, wh-question, open-question","fp, qw, qo",fp,Fp
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,2,acs-fae9e6c2-026e-417d-8624-3dec772c3681,my name is martin,customer,statement-non-opinion,sd,sd,Sd
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,3,acs-f2dafe35-f5c3-4dc1-a074-f075172636b8,am working at out look,customer,statement-non-opinion,sd,sd,Sd
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,4,acs-90c50db3-782c-472d-975c-ea5f415517d5,"Nice yo meet you, Martin! Could you share your query, please?",agent,"3rd-party-talk, open-question, wh-question","t3, qo, qw",ba qo,Qy
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,5,acs-b459ebf5-ebbf-4ff9-b783-134ad776209a,and my skype application was an some problem,customer,statement-non-opinion,sd,sd,Sd
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,6,acs-5db67e01-4af7-4b05-83df-3c32f087d561,"Okay, could you tell me as to what the problem is?",agent,"response acknowledgement, open-question, yes-no-question, wh-question","bk, qo, qy, qw",qw,"Bk, Qo"
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,7,acs-6dde696d-8a81-459a-8c54-f97f1339a2cb,the application is not running,customer,statement-non-opinion,sd,sd,Sd
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,8,acs-3553fe01-582f-4063-9af5-ac6b75965ea5,"Okay, I'll do my best to help. Could you share your name and account number?",agent,"response acknowledgement, other, yes-no-question, open-question, wh-question","bk, oo, qy, qo, qw",ba qo,"Bk, Qo"
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,9,acs-816c4638-f8ca-4db4-bf55-2886f28517df,my name is martin and my account numeber is 1445,customer,statement-non-opinion,sd,sd,Sd
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,10,acs-1b963550-fabd-4af9-aeb1-300f502e87f7,"Sure, thanks! Could you also share the name of you company?",agent,"response acknowledgement, thanking, open-question, wh-question, yes-no-question","bk, ft, qo, qw, qy",ba qo,Qo
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,11,acs-a8bc9716-88fe-4753-9644-cecb214a0216,my company name is outlook,customer,statement-non-opinion,sd,sd,Sd
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,12,acs-a8fbaac9-26b1-4404-85f4-a39d514d6971,outlook software company,customer,repeat-phrase,b^r,sd,Sd
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,13,acs-b215af6c-c96b-4ce4-a46b-8295ccc86972,Oh yes! Thanks again! Could you check and tell me if you're using the latest version of this application?,agent,"response acknowledgement, thanking, yes-no-question, open-question","bk, ft, qy, qo",ba qy^d,"Bk, qy^d"
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,14,acs-6513e320-ab7b-468f-bd9d-d51b3062beb7,yes am not using latest version application,customer,"yes answer, no answer","aa, na",nn,sd
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,15,acs-ff4554c4-41ad-429a-95dc-5b0afeb9e739,"I suggest you to upgrade to the latest version right away. Otherwise, you'll be facing these issue. Could you please upgrade and let me know if the application is responding?",agent,"action directive, other, yes-no-question, open-question","ad, oo, qy, qo",sv sd qy,"Ad, qy^d"
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,16,acs-d7c6db95-423a-4299-a2ae-5308fa349d21,yes okay i will do my updation process,customer,"yes answer, response acknowledgement, open-question, yes-no-question","aa, bk, qo, qy",ny,"Bk, sd"
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,17,acs-a48c7bdd-0764-41a8-b2c5-818a1a382690,"Sure, could you tell me if you're able to run the application without any errors?",agent,"acknowledge (backchannel), open-question, yes-no-question","bk, qo, qy",qy,Qy
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,18,acs-7e21ba22-319d-4637-8a5a-f117d2742d2f,yes now updated version is running normally,customer,"yes answer, statement-non-opinion","aa, sd",ny,"Ny, sd"
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,19,acs-be59d7ab-137b-42f5-8ec7-86de4031c6f6,Great! Would you need anything else?,agent,"agree/accept, wh-question, yes-no-question, open question","aa, qw, qy, qo",ba qo,Qy
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,20,acs-f856a82c-3ef2-4a81-9346-d8b1f9fd59b3,nothing,customer,no answer,na,nn,Ar
+acs-00ad5526-bb84-4148-ac30-19afca56c12b-1,21,acs-3fe6860b-2490-468f-ba69-03b86e717de4,It was a pleasure to assist you today. Have a wonderful day!,agent,"statement-opinion, conventional-closing","sv, fc",fc fc,Sd
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,0,acs-bdcc89ca-c1bf-42c1-b4f2-c9b5487f3b3a,Hello,customer,conventional-opening,fp,fp,Fp
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,1,acs-932cccbc-881a-4ab3-868e-c9716f1ebc2d,Hello! Welcome to ACS Software Solutions. How may I help you today?,agent,"conventional-opening, open-question, wh-question","fp, qo, qw",fp sd qw,Qo
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,2,acs-f63a4730-a0c8-4ab6-b98c-2e188ddc97d6,Hey Charlie.  I'm having issues with Skype.  I think an update failed.,customer,"conventional-opening, statement-non-opinion, statement-opinion","fp, sd, sv",fp sd sd,Sd
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,3,acs-61dd2cde-9ae4-46a5-8ec5-c068615fc8fd,"I'm sorry you had to face this. However, I'll do my best to help. Could you share your name and the account number?",agent,"apology, response-acknowledgement, wh-question, open-question","fa, bk, qw, qo",fa oo qo,Qo
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,4,acs-b7d23425-b675-4b82-9e81-0b4883dabaaf,Sure. I'm Dave Jenkins and my account is 499753B,customer,"response acknowledgement, statement-non-opinion","bk, sd",b sd,Sd
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,5,acs-a0eee745-f23b-42b1-905b-ee326b84db43,"Sure, Dave! I would also require you to share the name of the company you're working for.",agent,"agree/accept, action-directive","aa, ad",b sd,Sd
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,6,acs-c67eecb3-b661-4a79-b66f-bd32d42104a4,"Sure, it's Mazda",customer,"acknowledge (backchannel), statement-non-opinion","bk, sd",sd,Sd
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,7,acs-d87b70ef-2e91-44a4-b47a-203190da2812,"Thanks for the information. As you're missing updates, I suggest you to upgrade the application manually as for this time and I'll have a ticket raised for you.",agent,"thanking, action-directive, statement-non-opinion","ft, ad, sd",ft oo,Sd
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,8,acs-e44e6c79-deac-4f33-93f0-7c6a19d36deb,"That's some real solid advice, Charlie.   You're the real MVP, Charlie.   You're the home run hitter here, Charlie.  You brought the heat today, Charlie.   You're the wind beneath my wings here, Charlie.",customer,"appreciation, appreciation, appreciation, appreciation, appreciation",ft,aa ft ft,"ba,b^m"
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,9,acs-4e128758-95a1-420f-93b3-c1929f67bc7e,Thank you for your kind words. Have I helped you?,agent,"thanking, yes-no-question","ft, qy",ft qy,Qy
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,10,acs-dc7cff60-f665-4c0f-8729-c19e9debbb7a,"You totally did, Charlie.  Let's wrap this up so I can update Skype.",customer,"agree/accept, conventional-closing","aa, fc",aa ad,Sd
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,11,acs-77fbcd10-3222-46d5-94a8-859bb9fb7735,"Sure, I've raised the ticket for you. The team will contact you soon and will have the issue resolved within 3 hours. Would there be anything else that I could help you with?",agent,"acknowledge (backchannel), statement-non-opinion, statement-non-opinion, yes-no-question, open-question","bk, sd, qy, qo",sd sd qo,Qo
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,12,acs-a2319ba1-7926-4db5-b928-99795134f0f6,"Nope, we got it all sorted, Charlie.  Thanks!",customer,"no answer, statement-non-opinion, 3rd-party-talk, thanking","na, sd, t3, ft",ft,Ft
+acs-629291d6-ca2b-4b63-aaf7-012ef4f602c9-1,13,acs-5e083012-ad3e-4453-b6bf-e5739d5efd8f,It was a pleasure to assist you today. Have a wonderful day!,agent,"statement-opinion, conventional-closing","sv, fc",fc fc,Ft
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,0,acs-5d9da0c4-abb6-4f12-b01a-6b40684c8c6a,hai,customer,conventional-opening,fp,fp,sd
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,1,acs-4685d856-90b3-4ac4-8e3b-ea26dbf39506,"Good morning, thank you for contacting enterprise software company, How may I help you?
+",agent,"conventional-opening, thanking, open-question, wh-question","fp, ft, qo, qw",qw,Fp
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,2,acs-7486ffec-3452-41ec-8325-81346b8917fb,"checking the global status of servers.
+
+ ",customer,statement-non-opinion,sd,sd,Sd
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,3,acs-2dd4be67-2fe4-4b9d-900e-cffb333a9b4f,"Not to worry let's get your servers checked. Could you please help me with your name?
+",agent,"response-acknowledgement, wh-question, open-question","bk, qw, qo",sd qo,Qo
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,4,acs-32a554e8-4270-494d-a3a5-95f7f31e403d,ramasamy,customer,statement-non-opinion,sd,sd,X
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,5,acs-8c5d397e-33b7-42e0-bed6-54c8ae5f4da9,"Thank you so much. Could you also help me with your Company name and the last 4 digits of your account number?
+",agent,"thanking, wh-question, open-question","ft, qw, qo",ft qo,Qo
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,6,acs-2b792950-4642-4c35-9cc6-0af9473f3486,ramasamy  7758,customer,statement-non-opinion,sd,sd,Bk
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,7,acs-e4b004b6-b8c5-43c4-a8b0-d5015d259ead,"I see that the servers are working completely fine. Please don't worry, this might be a system issue. Please try re-loading the page or please restart your system and it should work fine.
+",agent,"statement-non-opinion, statement-opinion, action-directive","sd, sv, ad",sd h sv,Sd
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,8,acs-63222fda-780b-4f05-bdd1-3309320e2663,ok,customer,response acknowledgment,bk,bk,Ny
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,9,acs-c286a1d7-e9af-468e-a2dc-28de902cca1e,"It should be working perfectly fine now. Could you please check it?
+",agent,"statement-opinion, yes-no-question, wh-question","sv, qy, qw",sd qh,Qo
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,10,acs-590008b8-4a39-4977-8a93-390a299fe4e2,yes,customer,yes answer,aa,ny,Ny
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,11,acs-5419f21d-9eca-43c3-b174-a563824819e4,"Sure. Is there anything I could help you with?
+",agent,"acknowledge (backchannel), yes-no-question, open-question, wh-question","bk, qy, qo, qw",b qo,Qo
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,12,acs-faf1ce08-e2ec-449c-b5db-b65121009598,no thanks,customer,no answer,na,nn,Ar
+acs-b5a66197-127c-4bd1-8946-8813b9cbdeb8-1,13,acs-51380579-03f6-4d8e-98d7-869e2513ae36,"Thanks for reaching out to us.  Have a great day ahead.
+",agent,"thanking, conventional-closing","ft, fc",ft fc,Bk
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,0,acs-6123b525-4030-4b17-a0f6-fb429a0ebb9c,Hey! A very good evening to you. You're connected to Adio Tech Support. How may I help you today?,agent,"conventional opening, statement-non-opinion, wh-question, open-question","fp, sd, qw, qo",fp qw,Fp
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,1,acs-ba3aae84-d860-4050-9083-695961bdda1e,hi,customer,conventional oepning,fp,fp,Fp
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,2,acs-87e0dcaa-6074-47ca-82ab-ba65b75f510d,i want to check the server status of skype,customer,statement-non-opinion,sd,sd,Sd
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,3,acs-daabc375-7cb4-4649-b60b-7c991f4b2e58,I'll be glad to assist you with your query. Could you please help me with your name and last 4 digits of your account number?,agent,"statement-opinion, wh-question, open-question","sv, qw, qo",bk qo,Qo
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,4,acs-338f721d-a5f1-4fe9-99a9-1e449bb5ebc3,yia mario 7788,customer,statement-non-opinion,sd,sd,Ad
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,5,acs-9d7bb3bc-27b4-4ae4-aa14-b3e4387f8b13,And I'll also need the name of your company.,agent,"open-question, action-directive","qo, ad",ad,Sv
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,6,acs-fa7cae67-0e89-462f-8a1f-a9fe201129e6,yua ltd,customer,statement-non-opinion,sd,sd,Sd
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,7,acs-09e0450f-81c7-43a3-a310-97fba46508f0,Thanks for the information. Please allow me a moment while I check the same for you.,agent,"thanking, action-directive","ft, ad",ft co,Oo
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,8,acs-c9f75dcb-a535-4de0-a765-15af3a7bc552,"I checked with my resources, the server is down for next 15 minutes, I'm sorry that you had to put your work on hold because of this. But, we are already working on it and they'll be up soon.",agent,"statement-non-opinion, apology, statement-non-opinion","sd, fa",sd,^2
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,9,acs-5952aab6-bdac-4f1a-aa26-b98f0b14bd95,okay,customer,response acknowledgement,bk,bk,Bk
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,10,acs-9b512469-b014-42d1-b183-9394efff2edd,Would there be anything else I may assist you with?,agent,"wh-question, open-question, yes-no-question","qw, qo, qy",qo,Qo
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,11,acs-988872c9-8140-4574-8ae2-24a34cb67128,thanks thats all,customer,"thanking, negative non-no answer","ft, na",ft,Ft
+acs-1d1dbfa6-4e53-44cc-b748-5e3a44b92508-1,12,acs-6ff16cb9-cd02-4d0f-ac15-960d8c694406,Looking forward to seeing you soon again. Have a great day ahead!,agent,"statement-opinion, conventional-closing","sv, fc",sd fc,Sd
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,0,acs-0e9caa4f-cf63-4f45-b155-98ab2657d7a8,Hello! Good morning! You've reached to ATA Tech solution center. How may I help you today?,agent,"conventional-opening, statement-non-opinion, wh-question, open-question","fp, sd, qw, qo",fp qo,Fp
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,1,acs-e8ac9842-1637-476a-a3af-5f4c96914fac,Skype not open,customer,statement-non-opinion,sd,sd,Sd
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,2,acs-7e94fa38-eb2e-431c-8d88-16b5c769abc8,Alright! I'm here to help you out. Not to worry. May I know your name and the last four digits of your account number?,agent,"acknowledge (backchannel), statement-non-opinion, statement-opinion, open-question, wh-question","bk, sd, sv, qo, qw",b qo,Qo
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,3,acs-5a65f1bc-b281-4148-b698-3fde949b7a6b,"Jaylynn Clarke
+",customer,statement-non-opinion,sd,sd,Sd
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,4,acs-6a85d8a9-47e8-4573-a6e3-5be9ad2bbca0,5526,customer,statement-non-opinion,sd,sd,X
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,5,acs-05db3f7a-80de-4a61-ba17-5fe4d2583173,Thank you Mr. Jaylymm May I know your company name please?,agent,"thanking, open-question, wh-question","ft, qo, qw",ft qo,Qo
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,6,acs-0a6ae6d0-161b-4819-aa53-d7095cf170a4,Jaylynn*,agent,"repeat-phrase, other","b^r, oo",sd,Sd
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,7,acs-f5df3422-9cd2-4b1d-b4a1-0289f0a896e8,astmen inc,customer,statement-non-opinion,sd,sd,Sd
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,8,acs-c8b0bb50-d140-4721-a180-7c3f4fe018f5,Thank you for helping me with your details. Could you please stay connected while I go ahead and check on your issue.,agent,"thanking, action-directive","ft, ad",ft oo,Oo
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,9,acs-a2590abe-f186-4f12-b5c5-d155d5dd9758,ok,customer,response acknowledgement,bk,bk,Bk
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,10,acs-a953f43c-5f95-4159-bd29-4fae53a3de8f,"Amazing! I looked into your account and I could see that you haven't upgraded your application, I didn't wanted to trouble you much so, on your behalf I've updated your app and could you please close the app> restart the system> run the app.",agent,"acknowledgement (backchannel), statement-non-opinion","bk, sd",sd oo,Ad
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,11,acs-1cc91c04-0251-4343-8e63-a1f34082ce6a,ok,customer,response acknowledgement,bk,bk,Bk
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,12,acs-5fe1c0a3-807f-4dd1-823e-0b13622abb17,"My pleasure! Amazing, Thanks for being patient and cooperative. Would there be anything else I may help you with? ",agent,"statement-opinion, acknowledgement (backchannel), thanking, wh-question, open-question, yes-no-question","sv, bk, ft, qw, qo, qy",ft qo,"Ft, qo"
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,13,acs-49bc1be2-ebf7-477e-87e7-576fd66a0178,no,customer,no answer,na,nn,Bk
+acs-4463829b-6d87-477a-a882-d6cd78a6056b-1,14,acs-c9f56832-4a8b-4cff-b1a6-103654081fbd,Fantastic! Thank you for contacting us in this regards! It was my pleasure assisting you. Have a great day ahead!,agent,"response acknowledgement, acknowledgement (backchannel), agree/accept, thanking, statement-opinion, conventional-closing","bk, aa, ft, sv, fc",ft fc,Ft
